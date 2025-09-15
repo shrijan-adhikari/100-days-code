@@ -1,29 +1,17 @@
-#include <stdio.h>
-
-int main() {
-    float principal, rate, time;
-    float simple_interest, compound_interest, amount = 1.0;
-
-    printf("Enter principal amount: ");
-    scanf("%f", &principal);
-
-    printf("Enter rate of interest (in %%): ");
-    scanf("%f", &rate);
-
-    printf("Enter time (in years): ");
-    scanf("%f", &time);
-
-    // Simple Interest
-    simple_interest = (principal * rate * time) / 100;
-
-    // Compound Interest 
-    for(int i = 0; i < (int)time; i++) {
-        amount *= (1 + rate / 100);
-    }
-    compound_interest = principal * amount - principal;
-
-    printf("Simple Interest = %.2f\n", simple_interest);
-    printf("Compound Interest = %.2f\n", compound_interest);
-
+#include<stdio.h>
+#include<math.h>
+int main()
+{   float principle,rate,Rate;int time;
+    printf("enter principle amount = ");
+    scanf("%f",&principle);
+    printf("enter rate = ");
+    scanf("%f",&rate);
+    printf("enter time period = ");
+    scanf("%d",&time);
+    Rate=rate/100;
+    float simpleinterest=(principle*rate*time)/100;
+    float compoundinterest=principle*pow((1+Rate),time);
+    printf("the simple interest is = %f \n",simpleinterest);
+    printf("the compound interest is = %f\n",compoundinterest);
     return 0;
 }
