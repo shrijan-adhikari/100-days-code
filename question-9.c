@@ -16,7 +16,7 @@ int main() {
     // Simple Interest
     simple_interest = (principal * rate * time) / 100;
 
-    // Compound Interest (manual power calculation)
+    // Compound Interest 
     for(int i = 0; i < (int)time; i++) {
         amount *= (1 + rate / 100);
     }
