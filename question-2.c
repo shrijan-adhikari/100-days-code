@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main()
-//question= Write a program to input two numbers and display their sum, difference, product, and quotient.
 {
     int a, b, sum, multiply, subs;
     float Quotient;
