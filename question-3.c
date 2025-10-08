@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main()
-// Write a program to calculate the area and perimeter of a rectangle given its length and breadth
 {
 int a,b;
 printf("type lenght of rectangle: ");

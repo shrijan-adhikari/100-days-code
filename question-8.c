@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main ()
-// question = Write a program to find and display the sum of the first n natural numbers.
 {
     int n, sum;
     printf ("this is a program to find and display the sum of the first n natural numbers.");

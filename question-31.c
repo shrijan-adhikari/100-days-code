@@ -16,4 +16,8 @@ int main()
     }
     printf("binary= %d",fin);
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 97cf62ba46ef3a001e91ed01f578d3c223941702
