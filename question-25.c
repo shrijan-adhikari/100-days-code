@@ -26,8 +26,8 @@ int main()
         printf("Result: %d\n", result);
         break;
     case '/':
-        if (b != 0)
-            printf("Result: %d\n", a / b);
+        if (b != 0){
+            printf("Result: %d\n", a / b);}
         else
             printf("Error: Division by zero!\n");
         break;
