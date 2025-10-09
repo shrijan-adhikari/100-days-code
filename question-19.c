@@ -5,8 +5,6 @@ int main()
     int a, b, c;
     printf("Enter the lengths of the three sides of the triangle: ");
     scanf("%d %d %d", &a, &b, &c);
-
-    // Check for a valid triangle
     if (a + b > c && a + c > b && b + c > a)
     {
         if (a == b && b == c)

@@ -6,7 +6,7 @@ int main ()
     scanf("%d",&a);
     printf("enter 2nd number: ");
     scanf("%d",&b);
-   a = a + b;
+    a = a + b;
     b = a - b;
     a = a - b;
     printf("required swap= %d %d", a,b);
