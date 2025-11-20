@@ -17,3 +17,4 @@ int main()
     printf("binary= %d",fin);
     return 0;
 }
+ 
